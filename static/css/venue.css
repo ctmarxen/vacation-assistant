@@ -29,7 +29,6 @@ body{
 }
 
 .img-brand {
-  width: 30%;
   margin: 20px 0;
 }
 
@@ -41,7 +40,18 @@ body{
   margin-left: 0;
 }
 
-#location, #radius, #number_of_results, #submit{
+
+main > .bottom {
+  width: 30%;
+  text-align: center;
+}
+
+
+#location, #radius, #number_of_results {
+  margin: 15px 0;
+}
+
+#submit{
   margin: 15px 0;
 }
 
