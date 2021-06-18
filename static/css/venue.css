@@ -1,0 +1,54 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+body{
+  font-family: Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+  background-color: #28B5B5;
+  color: white;
+}
+
+.navbar, .navbar-brand, .nav-link, .foot, .navbar-light{
+  background-color: #28B5B5 !important;
+  color: white !important;
+}
+
+.album{
+  background-color: #8FD9A8;
+  color: black;
+}
+
+
+.venue-img {
+  overflow: hidden;
+  height: 250px;
+}
+
+.img-brand {
+  width: 30%;
+  margin: 20px 0;
+}
+
+.btn, .card-body{
+  color: #28B5B5;
+}
+
+.btn-sm {
+  margin-left: 0;
+}
+
+#location, #radius, #number_of_results, #submit{
+  margin: 15px 0;
+}
+
+
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
